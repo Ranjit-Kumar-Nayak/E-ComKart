@@ -1,0 +1,69 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# IntelliJ / Eclipse / VS Code settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+/target/
+/bin/
+/out/
+
+# Dependency directories
+/node_modules/
+/bower_components/
+/lib/
+/venv/
+/.venv/
+
+# Environment and properties files
+.env
+*.properties
+*.yml
+*.yaml
+*.config
+/secrets/
+
+# Maven / Gradle
+.mvn/
+*.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+target/
+build/
+.gradle/
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot generated files
+/BOOT-INF/
+/META-INF/
+/WEB-INF/
+
+# IDE Files
+.classpath
+.project
+.settings/
+
+# Logs and database
+*.log
+*.sql
+*.sqlite
